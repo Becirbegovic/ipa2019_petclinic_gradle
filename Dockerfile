@@ -1,6 +1,6 @@
 FROM openjdk:11-jre-slim
 
-ADD target/demo-2.0.0.BUILD-SNAPSHOT.jar app.jar
+ADD target/demo-2.1.0.BUILD-SNAPSHOT.jar app.jar
 
 ARG JVM_OPTS
 ENV JVM_OPTS=${JVM_OPTS}
